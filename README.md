@@ -2,9 +2,9 @@
 
 <br />
 
-`Algod` is an Algorand Asset Management Desktop Applications.
+`Algod` is an `Algorand` Assets Management Desktop Application.
 
-Runs on Mac OS, Windows and Linux.
+Runs on `Mac OS`, `Windows` and `Linux`.
 
 ## Download
 
