@@ -1,0 +1,30 @@
+productName: Algod
+appId: finance.w3.algod
+copyright: Copyright © 2020 W3 Finance
+
+asar: true
+
+directories:
+  buildResources: public/
+  output: dist/
+
+files:
+  - build/
+
+mac:
+  artifactName: "${productName}-v${version}-${os}.${ext}"
+  identity: null
+  target:
+    - zip
+
+win:
+  artifactName: "${productName}-v${version}-setup.${ext}"
+  target:
+    - target: nsis
+      arch:
+        - x64
+
+linux:
+  artifactName: "${productName}-v${version}-${arch}.${ext}"
+  target:
+    - AppImage
